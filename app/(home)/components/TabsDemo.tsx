@@ -30,7 +30,7 @@ function ImageContainer({ src, href }: ImageContainerProps) {
 }
 
 export function TabsDemo() {
-  const tabs: TabContent[] = [
+  const tabs = [
     {
       title: "Dheeraj Store",
       value: "Dheeraj Store",
