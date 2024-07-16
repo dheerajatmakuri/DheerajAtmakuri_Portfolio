@@ -42,6 +42,16 @@ export function TabsDemo() {
       ),
     },
     {
+      title: "Netflix-clone",
+      value: "Netflix-clone",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Netflix-clone</p>
+          <ImageContainer src="/images/dheerajstore.png" href="https://netflix-clone-dheeraj.vercel.app/login" />
+        </div>
+      ),
+    },
+    {
       title: "Portfolio Project",
       value: "My Portfolio",
       content: (
