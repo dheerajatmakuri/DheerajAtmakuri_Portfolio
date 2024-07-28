@@ -37,7 +37,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Yum Rocket- Food Delivery App</p>
-          <ImageContainer src="/images/dheerajstore.png" href="https://yumrocket-frontend.onrender.com/" />
+          <ImageContainer src="/images/yumrocket.png" href="https://yumrocket-frontend.onrender.com/" />
         </div>
       ),
     },
