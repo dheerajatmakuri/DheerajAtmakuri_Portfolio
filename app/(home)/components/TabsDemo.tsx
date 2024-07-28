@@ -31,16 +31,6 @@ function ImageContainer({ src, href }: ImageContainerProps) {
 
 export function TabsDemo() {
   const tabs = [
- {
-      title: "Yum Rocket",
-      value: "Dheeraj Store",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Yum Rocket- Food Delivery App</p>
-          <ImageContainer src="/images/yumrocket.png" href="https://yumrocket-frontend.onrender.com/" />
-        </div>
-      ),
-    },
     {
       title: "Dheeraj Store",
       value: "Dheeraj Store",
@@ -48,6 +38,16 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Dheeraj Store - Ecommerce Store</p>
           <ImageContainer src="/images/dheerajstore.png" href="https://dheeraj-store.vercel.app/" />
+        </div>
+      ),
+    },
+     {
+      title: "Yum Rocket",
+      value: "Yum Rocket",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Yum Rocket- Food Delivery App</p>
+          <ImageContainer src="/images/yumrocket.png" href="https://yumrocket-frontend.onrender.com/" />
         </div>
       ),
     },
