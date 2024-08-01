@@ -31,16 +31,7 @@ function ImageContainer({ src, href }: ImageContainerProps) {
 
 export function TabsDemo() {
   const tabs = [
-    {
-      title: "Dheeraj Store",
-      value: "Dheeraj Store",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Dheeraj Store - Ecommerce Store</p>
-          <ImageContainer src="/images/dheerajstore.png" href="https://dheeraj-store.vercel.app/" />
-        </div>
-      ),
-    },
+    
      {
       title: "Yum Rocket",
       value: "Yum Rocket",
@@ -48,6 +39,16 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Yum Rocket- Food Delivery App</p>
           <ImageContainer src="/images/yumrocket.png" href="https://yumrocket-frontend.onrender.com/" />
+        </div>
+      ),
+    },
+    {
+      title: "Dheeraj Store",
+      value: "Dheeraj Store",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>Dheeraj Store - Ecommerce Store</p>
+          <ImageContainer src="/images/dheerajstore.png" href="https://dheeraj-store.vercel.app/" />
         </div>
       ),
     },
@@ -62,22 +63,22 @@ export function TabsDemo() {
       ),
     },
     {
+      title: "UTD Explorer",
+      value: "UTD Explorer",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>SummarAIzer</p>
+          <ImageContainer src="/images/utdfront.png" href="https://utdallas.vercel.app/" />
+        </div>
+      ),
+    },
+    {
       title: "Portfolio Project",
       value: "My Portfolio",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>My Portfolio</p>
           <ImageContainer src="/images/portfolioproject.png" href="https://dheeraj-atmakuri-portfolio.vercel.app/" />
-        </div>
-      ),
-    },
-    {
-      title: "SummarAIzer",
-      value: "services",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>SummarAIzer</p>
-          <ImageContainer src="/images/SummarAIzer.png" href="https://summaraizer-alpha.vercel.app/" />
         </div>
       ),
     },
